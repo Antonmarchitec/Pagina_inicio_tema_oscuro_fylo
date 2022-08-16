@@ -1,0 +1,61 @@
+@import "fontColor";
+
+/*
+cont_header
+cont_header_Logo
+cont_header_nav
+cont_header_nav_Li
+link
+*/
+
+
+.cont_header{
+    width: 100%;
+    padding: 30px 20px;
+    background: $Dark_BlueBackground;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .cont_header_Logo{
+        width: 130px;
+        height: 40px;
+    }
+    .cont_header_nav{
+        width: 300px;
+        padding: 5px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center; 
+        list-style: none;
+        .cont_header_nav_Li{
+            padding: 5px 0px;
+            text-align: center;
+            .link{
+                color: $White_dark;
+                text-decoration: none;
+                font-weight: 400;
+                transition: 0.5s all;
+            }.link:hover{
+              color: $White;
+            }
+        }
+    }
+}
+
+
+@media (min-width:20px) and (max-width:720px){
+  .cont_header{
+    width: 100%;
+    padding: 20px;
+    .cont_header_Logo{
+        width: 100px;
+        height: 35px;
+    }
+    .cont_header_nav{
+        width: 180px;
+        
+    }
+}
+}
