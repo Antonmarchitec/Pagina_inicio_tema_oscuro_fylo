@@ -98,7 +98,7 @@ link
   color: hsl(0deg, 0%, 100%);
 }
 
-@media (min-width: 20px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 720px) {
   .cont_header {
     width: 100%;
     padding: 20px;
@@ -108,7 +108,190 @@ link
     height: 35px;
   }
   .cont_header .cont_header_nav {
-    width: 180px;
+    width: 160px;
+  }
+}
+/*
+cont_sectionOne
+cont_sectionOne_img
+cont_sectionOne_title
+cont_sectionOne_parrafo
+cont_sectionOne_buttom
+cont_sectionOne_curvo
+*/
+.cont_sectionOne {
+  width: 100%;
+  padding: 30px 0px;
+  background: hsl(217deg, 28%, 15%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.cont_sectionOne .cont_sectionOne_img {
+  width: 500px;
+  height: 400px;
+  padding: 20px 0px;
+  background-image: url(../images/illustration-intro.png);
+  background-size: 100% 100%;
+  margin: auto;
+  z-index: 10;
+}
+.cont_sectionOne .cont_sectionOne_title {
+  width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+  z-index: 10;
+}
+.cont_sectionOne .cont_sectionOne_parrafo {
+  width: 430px;
+  padding: 10px 0px;
+  margin: 20px auto;
+  color: hsl(0deg, 0%, 78%);
+  text-align: center;
+  font-weight: 400;
+  z-index: 10;
+}
+.cont_sectionOne .cont_sectionOne_buttom {
+  width: 220px;
+  padding: 15px 0px;
+  background: hsl(198deg, 60%, 50%);
+  color: white;
+  font-weight: 700;
+  border-radius: 30px;
+  transition: 0.5s all;
+  z-index: 10;
+  margin-bottom: 100px;
+}
+.cont_sectionOne .cont_sectionOne_buttom:hover {
+  background: hsl(176deg, 68%, 64%);
+  cursor: pointer;
+}
+.cont_sectionOne .cont_sectionOne_curvo {
+  width: 100%;
+  height: 280px;
+  background-image: url(../images/bg-curvy-desktop.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .cont_sectionOne {
+    padding: 50px 20px;
+  }
+  .cont_sectionOne .cont_sectionOne_img {
+    width: 100%;
+    height: 250px;
+    padding: 50px 0px;
+    background-image: url(../images/illustration-intro.png);
+    background-size: 100% 100%;
+    margin: auto;
+    z-index: 10;
+  }
+  .cont_sectionOne .cont_sectionOne_title {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(0deg, 0%, 100%);
+    z-index: 10;
+  }
+  .cont_sectionOne .cont_sectionOne_parrafo {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px auto;
+    color: hsl(0deg, 0%, 78%);
+    text-align: center;
+    font-weight: 400;
+    z-index: 10;
+  }
+  .cont_sectionOne .cont_sectionOne_buttom {
+    width: 240px;
+    padding: 15px 0px;
+    background: hsl(198deg, 60%, 50%);
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: 0.5s all;
+    z-index: 10;
+    margin-bottom: 50px;
+  }
+  .cont_sectionOne .cont_sectionOne_curvo {
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+  }
+}
+/*
+cont_sectionThree
+cont_sectionThree_box
+cont_sectionThree_box_img
+cont_sectionThree_box_title
+cont_sectionThree_box_parrafo
+*/
+.cont_sectionThree {
+  width: 100%;
+  padding: 30px 100px;
+  background: hsl(218deg, 28%, 13%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.cont_sectionThree .cont_sectionThree_box {
+  width: 400px;
+  height: 250px;
+  padding: 10px 10px;
+  margin: 20px 0px;
+}
+.cont_sectionThree .cont_sectionThree_box .cont_sectionThree_box_img {
+  width: 100px;
+  height: 90px;
+  margin: auto;
+}
+.cont_sectionThree .cont_sectionThree_box .cont_sectionThree_box_title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+.cont_sectionThree .cont_sectionThree_box .cont_sectionThree_box_parrafo {
+  margin-top: 20px;
+  color: hsl(0deg, 0%, 78%);
+  text-align: center;
+}
+
+@media (min-width: 20px) and (max-width: 423px) {
+  .cont_sectionThree {
+    width: 100%;
+    padding: 30px 20px;
+    background: hsl(218deg, 28%, 13%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cont_sectionThree .cont_sectionThree_box {
+    width: 100%;
+    height: 250px;
+    padding: 10px 10px;
+    margin: 20px 0px;
   }
 }
 * {
@@ -120,7 +303,7 @@ link
 body, html {
   scroll-behavior: smooth;
   font-size: 14px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,134 @@
+@import "fontColor";
+
+
+/*
+cont_sectionOne
+cont_sectionOne_img
+cont_sectionOne_title
+cont_sectionOne_parrafo
+cont_sectionOne_buttom
+cont_sectionOne_curvo
+*/
+
+.cont_sectionOne{
+    width: 100%;
+    padding: 30px 0px;
+    background: $Dark_BlueIntro;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+    .cont_sectionOne_img{
+        width: 500px;
+        height: 400px;
+        padding: 20px 0px;
+        background-image: url(../images/illustration-intro.png);
+        background-size: 100% 100%;
+        margin: auto;
+        z-index: 10;
+    }
+    .cont_sectionOne_title{
+        width: 600px;
+        text-align: center;
+        margin: 20px auto;
+        font-family: $font_header;
+        font-size: 35px;
+        font-weight: 700;
+        color: $White;
+        z-index: 10;
+    }
+
+    .cont_sectionOne_parrafo{
+        width: 430px;
+        padding: 10px 0px;
+        margin: 20px auto;
+        color: $White_dark;
+        text-align: center;
+        font-weight:400 ;
+        z-index: 10;
+    }
+
+    .cont_sectionOne_buttom{
+        width: 220px;
+        padding: 15px 0px;
+        background: $Blue;
+        color: white;
+        font-weight: 700;
+        border-radius: 30px;
+        transition:0.5s all;
+        z-index: 10;
+        margin-bottom: 100px;
+    }.cont_sectionOne_buttom:hover{
+        background: $Cyan;
+        cursor: pointer;
+    }
+
+    .cont_sectionOne_curvo{
+        width: 100%;
+        height: 280px;
+        background-image: url(../images/bg-curvy-desktop.svg);
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 0;
+        z-index:0;
+    }
+}
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .cont_sectionOne{
+        padding: 50px 20px;
+        .cont_sectionOne_img{
+            width: 100%;
+            height: 250px;
+            padding: 50px 0px;
+            background-image: url(../images/illustration-intro.png);
+            background-size: 100% 100%;
+            margin: auto;
+            z-index: 10;
+        }
+        .cont_sectionOne_title{
+            width: 100%;
+            text-align: center;
+            margin: 10px auto;
+            font-family: $font_header;
+            font-size: 22px;
+            font-weight: 700;
+            color: $White;
+            z-index: 10;
+        }
+    
+        .cont_sectionOne_parrafo{
+            width: 100%;
+            padding: 10px 0px;
+            margin: 10px auto;
+            color: $White_dark;
+            text-align: center;
+            font-weight:400 ;
+            z-index: 10;
+        }
+    
+        .cont_sectionOne_buttom{
+            width: 240px;
+            padding: 15px 0px;
+            background: $Blue;
+            color: white;
+            font-weight: 700;
+            border-radius: 30px;
+            transition:0.5s all;
+            z-index: 10;
+            margin-bottom: 50px;
+        }
+    
+        .cont_sectionOne_curvo{
+            width: 100%;
+            height: 350px;
+            background-image: url(../images/bg-curvy-mobile.svg);
+            background-size: 100% 100%;
+            position: absolute;
+            bottom: 0;
+            z-index:0;
+        }
+    }
+}

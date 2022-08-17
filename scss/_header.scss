@@ -45,7 +45,7 @@ link
 }
 
 
-@media (min-width:20px) and (max-width:720px){
+@media (min-width:320px) and (max-width:720px){
   .cont_header{
     width: 100%;
     padding: 20px;
@@ -54,8 +54,7 @@ link
         height: 35px;
     }
     .cont_header_nav{
-        width: 180px;
-        
+        width: 160px;
     }
 }
 }

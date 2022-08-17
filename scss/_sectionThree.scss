@@ -1,0 +1,66 @@
+@import "fontColor";
+/*
+cont_sectionThree
+cont_sectionThree_box
+cont_sectionThree_box_img
+cont_sectionThree_box_title
+cont_sectionThree_box_parrafo
+*/
+
+
+.cont_sectionThree{
+    width: 100%;
+    padding: 30px 100px;
+    background:$Dark_BlueBackground;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .cont_sectionThree_box{
+        width: 400px;
+        height: 250px;
+        padding: 10px 10px;
+        margin: 20px 0px;
+        .cont_sectionThree_box_img{
+            width: 100px;
+            height:90px;
+            margin: auto;
+        }
+        .cont_sectionThree_box_title{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: $font_header;
+            color: white;
+        }
+        .cont_sectionThree_box_parrafo{
+            margin-top: 20px;
+            color:$White_dark;
+            text-align: center;
+        }
+    }
+}
+
+
+
+@media (min-width:20px) and (max-width:423px){
+    .cont_sectionThree{
+        width: 100%;
+        padding: 30px 20px;
+        background:$Dark_BlueBackground;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .cont_sectionThree_box{
+            width: 100%;
+            height: 250px;
+            padding: 10px 10px;
+            margin: 20px 0px;
+        }
+    }
+    
+}
