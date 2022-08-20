@@ -360,6 +360,152 @@ cont_sectionThree_box_parrafo
     font-weight: 700;
   }
 }
+/*
+cont_sectionFive
+cont_sectionFive_testimonials
+cont_sectionFive_testimonials_box
+cont_sectionFive_testimonials_box_parrafo
+cont_sectionFive_testimonials_box_block
+cont_sectionFive_testimonials_box_block_img
+cont_sectionFive_testimonials_box_block_description
+cont_sectionFive_testimonials_box_block_description_name
+cont_sectionFive_testimonials_box_block_description_profetion
+*/
+/*
+cont_sectionFive_blockEarly
+cont_sectionFive_blockEarly_title
+cont_sectionFive_blockEarly_parrafo
+cont_sectionFive_blockEarly_form
+cont_sectionFive_blockEarly_form_input
+cont_sectionFive_blockEarly_form_button
+inputText
+*/
+.cont_sectionFive {
+  width: 100%;
+  height: 600px;
+  padding: 50px 0px;
+  background: hsl(218deg, 28%, 13%);
+  position: relative;
+}
+.cont_sectionFive .cont_sectionFive_quotes {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 25px;
+  left: calc(20% - 195px);
+  z-index: 0;
+}
+.cont_sectionFive .cont_sectionFive_testimonials {
+  width: 1100px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: calc(50% - 550px);
+  z-index: 10;
+}
+.cont_sectionFive .cont_sectionFive_testimonials .cont_sectionFive_testimonials_box {
+  width: 350px;
+  padding: 30px;
+  background: hsl(219deg, 30%, 18%);
+}
+.cont_sectionFive .cont_sectionFive_testimonials .cont_sectionFive_testimonials_box .cont_sectionFive_testimonials_box_parrafo {
+  width: 100%;
+  padding: 5px 0px;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 400;
+}
+.cont_sectionFive .cont_sectionFive_testimonials .cont_sectionFive_testimonials_box .cont_sectionFive_testimonials_box_block {
+  margin-top: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cont_sectionFive .cont_sectionFive_testimonials .cont_sectionFive_testimonials_box .cont_sectionFive_testimonials_box_block .cont_sectionFive_testimonials_box_block_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.cont_sectionFive .cont_sectionFive_testimonials .cont_sectionFive_testimonials_box .cont_sectionFive_testimonials_box_block .cont_sectionFive_testimonials_box_block_description {
+  margin-left: 10px;
+  width: 250;
+  padding: 5px 0px;
+}
+.cont_sectionFive .cont_sectionFive_testimonials .cont_sectionFive_testimonials_box .cont_sectionFive_testimonials_box_block .cont_sectionFive_testimonials_box_block_description .cont_sectionFive_testimonials_box_block_description_name {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  font-size: 14px;
+}
+.cont_sectionFive .cont_sectionFive_testimonials .cont_sectionFive_testimonials_box .cont_sectionFive_testimonials_box_block .cont_sectionFive_testimonials_box_block_description .cont_sectionFive_testimonials_box_block_description_profetion {
+  color: hsl(0deg, 0%, 78%);
+  font-weight: 400;
+  font-size: 14px;
+}
+.cont_sectionFive .cont_sectionFive_blockEarly {
+  width: 850px;
+  padding: 30px 0px;
+  background: hsl(217deg, 28%, 15%);
+  box-shadow: 0px 10px 10px hsl(216deg, 53%, 9%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -120px;
+  left: calc(50% - 425px);
+}
+.cont_sectionFive .cont_sectionFive_blockEarly .cont_sectionFive_blockEarly_title {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 35px;
+}
+.cont_sectionFive .cont_sectionFive_blockEarly .cont_sectionFive_blockEarly_parrafo {
+  width: 600px;
+  margin-top: 20px;
+  text-align: center;
+  color: hsl(0deg, 0%, 78%);
+}
+.cont_sectionFive .cont_sectionFive_blockEarly .cont_sectionFive_blockEarly_form {
+  margin-top: 20px;
+  width: 85%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.cont_sectionFive .cont_sectionFive_blockEarly .cont_sectionFive_blockEarly_form .cont_sectionFive_blockEarly_form_input {
+  width: 60%;
+  padding: 15px;
+  outline: none;
+  border-radius: 100px;
+  border: none;
+  color: hsl(0deg, 0%, 78%);
+}
+.cont_sectionFive .cont_sectionFive_blockEarly .cont_sectionFive_blockEarly_form .cont_sectionFive_blockEarly_form_button {
+  width: 30%;
+  padding: 15px 0px;
+  background: hsl(0deg, 0%, 100%);
+  border: none;
+  border-radius: 100px;
+  background: hsl(198deg, 60%, 50%);
+  color: hsl(0deg, 0%, 100%);
+  transition: 0.5s all;
+}
+.cont_sectionFive .cont_sectionFive_blockEarly .cont_sectionFive_blockEarly_form .cont_sectionFive_blockEarly_form_button:hover {
+  background: hsl(176deg, 68%, 64%);
+  cursor: pointer;
+}
+.cont_sectionFive .cont_sectionFive_blockEarly .cont_sectionFive_blockEarly_alert {
+  position: absolute;
+  bottom: 15px;
+  left: 90px;
+  color: white;
+}
+
 * {
   padding: 0;
   margin: 0;
