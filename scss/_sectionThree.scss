@@ -1,11 +1,4 @@
 @import "fontColor";
-/*
-cont_sectionThree
-cont_sectionThree_box
-cont_sectionThree_box_img
-cont_sectionThree_box_title
-cont_sectionThree_box_parrafo
-*/
 
 
 .cont_sectionThree{
@@ -18,9 +11,9 @@ cont_sectionThree_box_parrafo
     justify-content: space-around;
     align-items: center;
     .cont_sectionThree_box{
-        width: 400px;
+        width: 450px;
         height: 250px;
-        padding: 10px 10px;
+        padding: 20px 10px;
         margin: 20px 0px;
         .cont_sectionThree_box_img{
             width: 100px;
