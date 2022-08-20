@@ -1,6 +1,6 @@
 # PÁGINA DE INICIO FYLO CON TEMA OSCURO 
 
-Diseño de modo oscuro desarrollado con HTML, CSS y JS que cuenta con un header 4 secciones, se aplica un evento al botón para validación de correo electrónico.
+Diseño de modo oscuro desarrollado con HTML, CSS y JS que cuenta con un header y 4 secciones, se aplica un evento al botón para validación de correo electrónico.
 
 ## Vista previa:
 https://antonmarchitec.github.io/Pagina_inicio_tema_oscuro_fylo/
