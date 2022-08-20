@@ -13,7 +13,7 @@ https://www.frontendmentor.io/
 
 ## Frase del día:
 La clave para tener éxito en los negocios es saber en qué dirección va el mundo y procurar llegar ahí antes que nadie.
---Bill Gates--
+- Bill Gates
 
 ## Imagen proyecto:
 
