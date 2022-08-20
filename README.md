@@ -16,3 +16,5 @@ La clave para tener éxito en los negocios es saber en qué dirección va el mun
 --Bill Gates--
 
 ## Imagen proyecto:
+
+![TARGET_20](https://user-images.githubusercontent.com/70084380/185768134-2fd35131-68f3-443f-822e-b851a9cd6a87.jpg)
