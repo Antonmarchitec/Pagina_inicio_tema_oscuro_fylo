@@ -1,29 +1,6 @@
 @import "fontColor";
 
 
-
-/*
-cont_sectionFive
-cont_sectionFive_testimonials
-cont_sectionFive_testimonials_box
-cont_sectionFive_testimonials_box_parrafo
-cont_sectionFive_testimonials_box_block
-cont_sectionFive_testimonials_box_block_img
-cont_sectionFive_testimonials_box_block_description
-cont_sectionFive_testimonials_box_block_description_name
-cont_sectionFive_testimonials_box_block_description_profetion
-*/
-
-/*
-cont_sectionFive_blockEarly
-cont_sectionFive_blockEarly_title
-cont_sectionFive_blockEarly_parrafo
-cont_sectionFive_blockEarly_form
-cont_sectionFive_blockEarly_form_input
-cont_sectionFive_blockEarly_form_button
-inputText
-*/
-
 .cont_sectionFive{
     width: 100%;
     height: 600px;
@@ -55,6 +32,8 @@ inputText
             width: 350px;
             padding: 30px;
             background:$Dark_BlueTestimonials;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px $Dark_BlueTestimonials;
             //BOX PARRAFO
             .cont_sectionFive_testimonials_box_parrafo{
                 width: 100%;
@@ -105,6 +84,7 @@ inputText
         padding: 30px 0px;
         background: $Dark_BlueIntro;
         box-shadow: 0px 10px 10px $Dark_BlueFooter;
+        border-radius: 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -112,6 +92,7 @@ inputText
         position: absolute;
         bottom: -120px;
         left: calc(50% - 425px);
+        display: none;
         .cont_sectionFive_blockEarly_title{
             color:$White;
             font-size: 35px;
@@ -160,4 +141,143 @@ inputText
         }
         
     }
+}
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .cont_sectionFive{
+        width: 100%;
+        height: 1200px;
+        padding: 50px 20px;
+        background:$Dark_BlueBackground;
+        position: relative;
+
+        //BOX QUOTES
+        .cont_sectionFive_quotes{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 45px;
+            left:20px;
+            z-index:0;
+        }
+    
+        //BOX TESTIMONIOS
+        .cont_sectionFive_testimonials{
+            width:100%;
+            padding: 10px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            left:0;
+            z-index: 10;
+            .cont_sectionFive_testimonials_box{
+                width: 90%;
+                padding: 30px;
+                margin: 20px 0px;
+                background:$Dark_BlueTestimonials;
+                //BOX PARRAFO
+                .cont_sectionFive_testimonials_box_parrafo{
+                    width: 100%;
+                    padding: 5px 0px;
+                    color: $White; 
+                    font-weight: 400;  
+                }
+    
+                //BOX BLOCK
+                .cont_sectionFive_testimonials_box_block{
+                    margin-top: 20px;
+                    width:300px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .cont_sectionFive_testimonials_box_block_img{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 100%;
+                        overflow: hidden;
+                    }
+                    .cont_sectionFive_testimonials_box_block_description{
+                        margin-left: 10px;
+                        width: 250;
+                        padding: 5px 0px;
+                        .cont_sectionFive_testimonials_box_block_description_name{
+                            color: $White;
+                            font-weight: 700;
+                            font-size: 14px;
+                        }
+                        .cont_sectionFive_testimonials_box_block_description_profetion{
+                            color: $White_dark;
+                            font-weight: 400;
+                            font-size: 14px;
+    
+                        }
+                    }
+                }
+            }
+    
+        
+        }
+    
+        //BOX BLOCK EARLY
+        .cont_sectionFive_blockEarly{
+            width:90%;
+            padding: 30px 20px;
+            background: $Dark_BlueIntro;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: -100px;
+            left:20px;
+            
+            .cont_sectionFive_blockEarly_title{
+                color:$White;
+                font-size: 20px;
+                
+            }
+            .cont_sectionFive_blockEarly_parrafo{
+                width: 100%;
+                margin-top: 20px;
+                text-align: center;
+                color: $White_dark;
+            }
+            .cont_sectionFive_blockEarly_form{
+                margin-top: 20px;
+                width: 100%;
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .cont_sectionFive_blockEarly_form_input{
+                    width: 100%;
+                    padding: 15px 20px;
+                    color: $White_dark;
+                }
+                .cont_sectionFive_blockEarly_form_button{
+                    margin-top: 40px;
+                    width:100%;
+                    padding: 15px 0px;
+                    background: $White;
+                    background: $Blue;
+                    color: $White;
+                   
+                }
+            }
+    
+            .cont_sectionFive_blockEarly_alert{
+                position: absolute;
+                bottom: 105px;
+                left: calc(50% - 110px);
+                color: white;
+            }
+            
+        }
+    }
+    
 }
